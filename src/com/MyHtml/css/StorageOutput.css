@@ -1,0 +1,12 @@
+body
+{
+	font-family: 'Palatino Linotype', serif;
+	max-width: 400px;
+	padding: 10px;
+}
+
+#showAllStorageKeys
+{
+	font-weight: bold;
+	color: red;
+}

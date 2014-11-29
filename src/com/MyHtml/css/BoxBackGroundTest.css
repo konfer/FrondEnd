@@ -1,0 +1,9 @@
+.BoxBackGround
+{
+	margin: 50px;
+	padding: 20px;
+	background-image: url('/D:/Aptana Studio 3 Workspace/MyHtml5ProDefault/MyHtml/img/BoxImage/top-left.png'), url('/img/BoxImage/bottom-right.png') background-position : left top, right bottom;
+	background-position:left top,right bottom;
+	background-repeat: no-repeat, no-repeat;
+}
+

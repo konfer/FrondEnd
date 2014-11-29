@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Zookeeper Form</title>
+		<link href="css/ZookeeperForm.css" rel="stylesheet">
+		<script src="js/FormScript.js"></script>
+	</head>
+
+	<body>
+
+		<h1>Zoo Keeper Application Form</h1>
+		<form action="#">
+			<p>
+				<i>Please complete the form. Mandatory fields are marked with a </i><em>*</em>
+			</p>
+			<fieldset>
+				<legend>
+					Contact Details
+				</legend>
+				<label for="name">Name <em>*</em></label>
+				<input id="name" placeholder="Jane Smith" autofocus required>
+				<br>
+				<label for="telephone">Telephone</label>
+				<input id="telephone" placeholder="*** **** ****"
+				title="11nums" pattern="[0-9]{5}" autofocus>
+				<br>
+				<label for="email">Email <em>*</em></label>
+				<input id="email" type="email" autofocus>
+				<br>
+				<label for="weight">Weight (in pounds)</label>
+				<input id="weight" type="range" min="50" max="1000" value="160" />
+				<br>
+				<label for="progress">Progress</label>
+				<progress value="0.25"></progress>
+				<br>
+				Your suitcase weights:<meter min="5" max="100" high="70" value="79">28 pounds</meter>
+				<br>
+				<div id="editableElement" contenteditable>You can edit this text,if you want</div>
+			</fieldset>
+			<fieldset>
+				<legend>
+					Personal Information
+				</legend>
+				<label for="age">Age<em>*</em></label>
+				<input id="age" autofocus required type="age" min="0" max="120">
+				<br>
+				<label for="gender">Gender</label>
+				<select id="gender">
+					<option value="female">Female</option>
+					<option value="male">Male</option>
+				</select>
+				<br>
+				<label for="comments">When did you first know you wanted to be a zoo-keeper?</label>
+				<textarea id="comments" oninput="validateComments(this)">empty</textarea>
+			</fieldset>
+
+			<fieldset autofocus>
+				<legend>
+					Pick Your Favorite Animals
+				</legend>
+				<label for="zebra">
+					<input id="zebra" type="checkbox">
+					Zebra</label>
+				<label for="cat">
+					<input id="cat" type="checkbox">
+					Cat</label>
+				<label for="anaconda">
+					<input id="anaconda" type="checkbox">
+					Anaconda</label>
+				<label for="human">
+					<input id="human" type="checkbox">
+					Human</label>
+				<label for="elephant">
+					<input id="elephant" type="checkbox">
+					Elephant</label>
+				<label for="wildebeest">
+					<input id="wildebeest" type="checkbox">
+					Wildebeest</label>
+				<label for="pigeon">
+					<input id="pigeon" type="checkbox">
+					Pigeon</label>
+				<label for="crab">
+					<input id="crab" type="checkbox">
+					Crab</label>
+			</fieldset>
+			<p>
+				<input type="submit" value="Submit Application">
+			</p>
+		</form>
+	</body>

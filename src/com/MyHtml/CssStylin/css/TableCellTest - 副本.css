@@ -1,0 +1,44 @@
+* {margin:0; padding:0;}
+body {
+	font-family:helvetica, arial, sans-serif; 
+	background:#efefef; margin:0 0;
+	}
+#wrapper {
+	width:980px; margin:0 auto 20px;
+	}
+header {
+	position:relative; /* positioning context for title and search areas */
+	height:70px;   /*  fixed height to enclose absolutely positioned elements */	
+	margin:10px 0;  /* vertical space around header */
+	border-radius:20px 0px 20px 0px; /* order: tl, tr, br, bl */
+	box-shadow:0 12px 8px -9px #555; /* negative spread brings shadow inside box width */
+	background:#fff;
+	padding-top:1px; /* prevents menu's top margin collapsing */
+	}
+header section#title {
+	position:absolute;
+	width:300px; /* wide enough to not force text wrap */
+	height:65px; /* tall enough for both lines of text */
+	left:0px; /* top left corner positioning */
+	top:0px;
+	}
+header h1 {
+	padding:9px 12px 0;
+	font-family:Lato, helvetica, sans-serif;
+	font-style:normal;
+	font-weight:900;
+	font-size:2.2em;
+	line-height:1;
+	letter-spacing:-.025em;
+	color:#4eb8ea;
+	}
+header h2 {
+	font-family:"Source Sans Pro", helvetica, sans-serif;
+	font-style:normal;
+	font-weight:400;
+	font-size:.9em;
+	color:#333;
+	padding:0px 12px;
+	line-height:1;
+	letter-spacing:-.025em;
+	}

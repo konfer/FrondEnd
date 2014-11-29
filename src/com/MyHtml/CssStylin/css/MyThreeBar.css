@@ -1,0 +1,70 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: helvetica, arial, sans-serif;
+}
+nav
+{
+	width: 150px;
+	float: left;
+}
+nav li
+{
+	list-style-type: none;
+}
+#wrapper
+{
+	width: 960px;
+	margin: 0 auto;
+	border: 1px solid;
+}
+header
+{
+	background: #f00;
+}
+article
+{
+	width:600px;
+	float:left;
+	background: #ffed53;
+	padding:10px 20px;
+}
+article h1
+{
+	font-family: 'Droid Sans';
+	font-weight: 700;
+	font-size: 1.5em;
+	letter-spacing: -.05em;
+	color: #616161;
+}
+article h2
+{
+	font-family: 'Droid Sans';
+	font-weight: 700;
+	font-size: 1.25em;
+	letter-spacing: -.05em;
+	color: #616161;
+	text-decoration: overline;
+	margin: 10px 0 0 0;
+}
+article p
+{
+	font-family: 'Open Sans Condensed';
+	font-weight: 300;
+	font-size: 1em;
+	color: #000;
+}
+aside
+{
+	width:210px;
+	float:left;
+	background:#3F7CCF;
+}
+footer
+{
+	clear:both;
+}

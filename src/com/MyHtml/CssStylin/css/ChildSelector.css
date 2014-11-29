@@ -1,0 +1,42 @@
+section * a
+{
+	font-size: 1.3em;
+}
+
+a:link
+{
+	color: black;
+}
+
+a:visited
+{
+	color: gray;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+a:active
+{
+	color: red;
+}
+
+p:hover
+{
+	background-color: gray;
+}
+
+input:focus
+{
+	border: 1px solid blue;
+}
+
+#more_info:target
+{
+	background: #eee;	
+}
+
+
+

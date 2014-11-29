@@ -1,0 +1,13 @@
+p{
+	font-size: 28px;
+	font-family: helvetica, arial, sans-serif;
+	width: 345px;
+	height: 110px;
+	margin: 20px auto;
+	padding: 10px;
+	color: #000;
+	border: 4px solid #aaa;
+	background-color: #fff;
+	background-image: url(images/blue_circle.png);
+	background-repeat: repeat-x;
+}

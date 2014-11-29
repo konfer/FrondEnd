@@ -1,0 +1,18 @@
+p
+{
+	font-size: 14px;
+	font-family: helvetica, arial, sans-serif;
+	width: 348px;
+	height: 40px;
+	margin: 20px auto;
+	padding: 10px;
+	color: #000;
+	border: 2px solid #AAA;
+	background-color: #FFF;
+	background-image: url(images/blue_circle.png);
+}
+
+p#center
+{
+	background-position: center;
+}

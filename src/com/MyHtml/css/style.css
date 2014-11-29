@@ -1,0 +1,67 @@
+article,aside,figure,figcaption,footer,header,hgroup,nav,section,
+summary
+{
+    display:block;
+}
+
+.Header
+{
+	background-color:#7695FE;
+	border:thin #336699 solid;
+	padding:10px;
+	margin:10px;
+	text-align:center;
+}
+
+.Header h1
+{
+	margin:0px;
+	color: white;
+	font-size:xx-large;
+}
+
+.Header .Byline
+{
+	font-style:italic;
+	font-size:small;
+	margin:0px;
+}
+
+.FloatFigure
+{
+	float:left;
+	margin-left:0px;
+	margin-top:0px;
+	margin-right:20px;
+	margin-bottom:0px;
+}
+
+.FloatFigure figcaption
+{
+	max-width:200px;
+	font-size:small;
+	font-style:italic;
+	margin-bottom:5px;
+}
+
+.PullQuote
+{
+	float:right;
+	max-width:300px;
+	border-top:thin black solid;
+	border-bottom: thick black solid;
+	font-size:30px;
+	line-height: 130%;
+	font-style: italic;
+	padding-top:5px;
+	padding-bottom: 5px;
+	margin-left: 15px;
+	margin-bottom:10px;
+}
+
+.PullQuote img
+{
+	vertical-align: bottom;
+}
+
+

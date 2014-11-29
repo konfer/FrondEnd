@@ -1,0 +1,26 @@
+section
+{
+	width: 300px;
+	border: 1px solid red;
+}
+
+img
+{
+	float: left;
+	margin: 0 4px 4px 0;
+}
+
+/*为简明起见，省略了字体声明*/
+p
+{
+	margin: 0 0 5px 0;
+}
+
+.clearfix:after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}

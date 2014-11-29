@@ -1,0 +1,39 @@
+nav.menu
+{
+	margin:10px auto;
+	background-color: #fff;
+	border-radius: 10px;
+	text-align:center;
+}
+
+nav.menu ul
+{
+	padding:3px 0;
+	display: inline-block;
+	/* gives menu fixed/fluid width - see pages 244-245 for details */
+	overflow:hidden;
+}
+
+nav.menu li
+{
+	float:left;
+	list-style-type: none;
+	padding:0px 30px;
+}
+
+.menu a{
+	display: block;
+	padding:0 16px;
+	text-decoration:none;
+	color:#999;
+	
+}
+
+.menu li+li{
+	border-left:1px solid #aaa;
+}
+
+.menu a:hover{
+	color:#555;
+}
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>ThreeBarMiddleFloat</title>
+		<meta charset="UTF-8">
+		<script src="helpers/modernizr_dev.js"></script>
+		<link href="css/ThreeBarMiddleFloat.css" rel='stylesheet' type='text/css'/>
+		
+	</head>
+
+	<body>
+		<div id="main_wrapper">
+			<header>
+				<h1>A Three-Column Fluid Center Layout</h1>
+			</header>
+
+			<div id="threecolwrap">
+				<!--encloses the three columns-->
+				<div id="twocolwrap">
+					<!-- encloses the left and center columns-->
+
+					<nav>
+						<!-- the left column-->
+						<ul>
+							<li>
+								<a href="#">Nav Link 1</a>
+							</li>
+							<li>
+								<a href="#">Nav Link 2</a>
+							</li>
+						</ul>
+					</nav>
+
+					<article>
+						<!-- the center column -->
+						<!--start of page content-->
+						<h2>About This Layout</h2>
+						<p>
+							<strong>This page is styled with <abbr title="Cascading Style Sheets">CSS</abbr>.
+							This layout uses negative margins to create this feature-rich
+							layout.</strong>
+						</p>
+						<h3>Key Features</h3>
+						<p>
+							Resize this page to see the following:
+						</p>
+						<ol>
+							<li>
+								The center content column changes width as you change the browser width.
+							</li>
+							<li>
+								The <code>
+									min-width</code> setting prevents the content being crushed down
+								to nothing; once the content reaches minimum width, the layout
+								gets no narrower.
+							</li>
+							<li>
+								The <code>
+									max-width</code> setting prevents the content getting too wide;
+								once it reaches maximum width, the layout gets no wider and the auto margins center the layout
+								in the browser window.
+							</li>
+							<li>
+								The footer sits below whichever column is longest.
+							</li>
+						</ol>
+						<!--end of page content-->
+					</article>
+					<!--end of content section-->
+
+				</div>
+				<!--end of twocolwrap-->
+
+				<aside>
+					<h3>Sidebar Area</h3>
+					<p>
+						This column has a negative margin applied to it to draw it
+						inside of the full width content div. A positive margin on the content
+						div ensures there will be room for it.
+					</p>
+				</aside>
+				<!--end of promo div-->
+
+			</div>
+			<!--end of threecolwrap div-->
+
+			<footer>
+				<p>
+					A CSS template from <a href="http://www.stylinwithcss.com"><em>Stylin'
+					with CSS, Third Edition</em></a> by Charles Wyke-Smith
+				</p>
+			</footer>
+			<!--end footer -->
+
+		</div>
+		<!--end main_wrapper-->
+
+		<!-- OK to remove the code between here and </body> -->
+		<div style="clear:both; padding:100px 0 0 0; font-size:.85em; color:#666;">
+			<p>
+				A code example from <em>Stylin&rsquo; with CSS, Third Edition</em> by Charles Wyke-Smith. Visit <a href="http://www.stylinwithcss.com">stylinwithcss.com</a> for more CSS information and updates.
+			</p>
+		</div>
+
+	</body>
+
+</html>
+

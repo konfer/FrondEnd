@@ -1,0 +1,103 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: Helvetica, Arial, sans-serif;
+	background: #EFEFEF;
+	margin: 0 0;
+	padding: 0px;
+}
+
+#wrapper
+{
+	width: 960px;
+	margin: 0 auto 20px;
+}
+
+header
+{
+	position: relative;
+	height: 70px;
+	background: #fff;
+	border-radius: 20px ;
+	box-shadow: 0 12px 8px -9px #555;
+	padding: 1px;
+}
+
+header section#title
+{
+	position: absolute;
+	width: 600px;
+	height: 65px;
+	left: 0px;
+	top: 0px;
+}
+
+header h1
+{
+	padding: 9px 12px 0;
+	font-family: 'Lato', helvetica, sans-serif;
+	font-weight: 900;
+	font-size: 2.2em;
+	line-height: 1;
+	letter-spacing: -.025em;
+	color: #4eb8ea;
+}
+
+header h2
+{
+	padding: 5px 12px;
+	font-family: "Source Sans Pro", helvetica, sans-serif;
+	font-weight: 400; /*设定下载字体的粗细*/
+	font-size: .9em;
+	line-height: 1;
+	letter-spacing: -.025em;
+	color: #333;
+}
+
+form.search
+{
+	position: absolute;
+	width: 150px;
+	top: 23px;
+	right: 20px;
+}
+
+form.search label
+{
+	display: none;
+}
+
+.search input
+{
+	float: right;
+	width: 70px;
+	border-radius: 10px 0 10px 0;
+	font-family: "Source Sans Pro", helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1em;
+	color: #888;
+	outline: none;
+	-webkit-transition: 2s width;
+}
+
+.search input:focus
+{
+	width: 140px;
+}
+
+form.search input
+{
+	background-color: #FFF;
+}
+
+form.search input::-webkit-input-placeholder
+{
+	color: #ccc;
+}
+

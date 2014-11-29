@@ -1,0 +1,10 @@
+body
+{
+	font-family: Verdana;
+	font-size: small;
+}
+canvas
+{
+	cursor: pointer;
+	border: 1px solid black;
+}

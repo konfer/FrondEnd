@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font: 1em helvetica, arial, sans-serif;
+}
+div#main_wrapper
+{
+	min-width: 600px;
+	max-width: 1100px;
+	margin: 0 auto; /* centers layout when > max width */
+	background: url(images/bg_tile_150pxw.png) repeat-y #eee;
+}
+header
+{
+	padding: 5px 10px;
+	background: #3f7ccf;
+}
+header h1
+{
+	font-family: Metrophobic;
+	font-size: 2.5em;
+	letter-spacing: -.05em;
+	color: #fff;
+}
+div#threecolwrap
+{
+	float: left;
+	width: 100%;
+	background: url(images/bg_tile_210pxw.png) top right repeat-y;
+}
+div#twocolwrap
+{
+	float: left;
+	width: 50%;
+	display: inline; /* stops IE doubling margin on float*/
+}
+nav
+{
+	float: left;
+	width: 150px;
+	background: #f00;
+	padding: 20px 0;
+}
+nav > *
+{
+	margin: 0 10px;
+}/* moves child elements from column sides */
+nav li
+{
+	margin-left: 28px;
+}/* pushes list item markers onto page */
+nav a
+{
+	font-family: 'Open Sans';
+	font-size: .75em;
+	letter-spacing: -.07em;
+	text-decoration: none;
+	color: #fff;
+}
+article
+{
+	margin-left: 150px;
+	height: 1%; /* forces hasLayout on IE */
+	background: #EEE;
+	padding: 20px 0;
+}
+article > *
+{
+	margin: 0px 20px;
+}/* moves child elements from column sides */
+article h2
+{
+	font-family: Metrophobic;
+	font-size: 1.25em;
+	letter-spacing: -.05em;
+	color: #000;
+}
+article h3
+{
+	font-family: Metrophobic;
+	font-size: 1.15em;
+	letter-spacing: -.05em;
+	color: #000;
+}
+article p
+{
+	font-family: 'Open Sans Condensed';
+	font-size: 1em;
+	color: #000;
+}
+article ol
+{
+	font-family: 'Open Sans Condensed';
+	font-size: 1em;
+	color: #000;
+}
+article li
+{
+	font-family: 'Open Sans Condensed';
+	font-size: 1em;
+	color: #000;
+}
+article code
+{
+	font-family: 'Droid Sans Mono';
+	font-size: .9em;
+	color: #000;
+}
+aside
+{
+	float: left;
+	background: #ffed53;
+	padding: 20px 0;
+}
+aside > *
+{
+	margin: 0 10px;
+}/* moves child elements from column sides */
+aside h3
+{
+	font-family: 'Droid Sans';
+	letter-spacing: -.1em;
+	color: #f00;
+}
+aside p
+{
+	font-family: 'Open Sans Condensed';
+	font-style: italic;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #000;
+}
+footer
+{
+	clear: both;
+	width: 100%;
+	text-align: center;
+	background: #000;
+}
+footer p
+{
+	font-family: 'Open Sans';
+	font-size: .7em;
+	letter-spacing: -.05em;
+	color: #fff;
+}
+footer a
+{
+	font-family: 'Open Sans';
+	font-size: 1em;
+	color: #ffed53;
+	text-decoration: none;
+}
